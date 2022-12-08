@@ -1,0 +1,47 @@
+==== PROVISIONAL GRADE FOR THIS ASSESSMENT: A+ ====
+
+Feedback on your report:
+------------------------
+CHECK: word count excluding graphs and tables is 2489.
+CHECK: there are 2 pages of graphs and tables.
+CHECK: does report contain statement of group member contributions? Yes.
+Your graphs and / or tables are very clear - good.
+Some of your axis labels could be improved. The faceted plot is nice - you could also have plotted the three facets on one plot, so that comparing the slopes is easier.
+You give a thorough summary of the context for the problem.
+It's good that you consulted some external sources to learn more about the background.
+You make reference to the problem context throughout - good.
+Nice, thorough exploratory analysis which focuses on relevant features.
+Some of the details of PCA that you used are not clear. Also, you need to take into account that PCs need to be well correlated with the response.
+Your modelling is done thoroughly and shows good awareness.
+Your modelling is informed well by your understanding of the problem
+You use diagnostics well to inform your modelling
+You consider a variety of criteria to help you choose a model: this is good.
+You don't discuss the coding of factor levels in your modelling.
+You could have investigated residuals in a bit more detail, for example plotting residuals against covariates, to guide model improvement. Also, since your response is adjusted by population size, you could also have adjusted your covariates.
+Your report is clear and well-structured.
+Your exploratory analysis and modelling are linked well.
+Your conclusions are clear and are well supported by your analysis, with appropriate caveats.
+In your conclusions, it would be helpful to say something about the predictive power of the model.
+You could have linked your conclusions back to other studies of Covid-19.
+
+
+Feedback on your script:
+------------------------
+CHECK: can the script be source()d without an error? Yes.
+CHECK: does script produce and save all graphs in report? Yes.
+CHECK: does script produce the predictions that were submitted? Yes.
+Your code is well commented with clear explanations of what you're doing.
+You used cat() to insert labels into your output for readability: this is good. Unfortunately, you forgot to use print() to ensure that the output itself appears when the script is source()d! When I run your code therefore, I just get a bunch of labels with no output ...
+Your code reads the data and handles missing values correctly - good.
+Your code shows an excellent command of R - well done
+You make good use of programming structures.
+The code could be a bit more efficient by, e.g., using update() to move between models. Otherwise very nice.
+
+
+Feedback on your predictions:
+-----------------------------
+CHECK: is the prediction file named correctly? Yes.
+CHECK: are the predictions in the correct format? Yes.
+Your prediction score was 3500.61 .
+This score places you at position 11 in the class for prediction performance.
+The root mean squared error of your predictions was 4.4071 .
